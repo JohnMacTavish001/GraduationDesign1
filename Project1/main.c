@@ -12,6 +12,8 @@ void main()                                       //Ö÷º¯Êý£¬Ö÷Âß¼­
 	
 	//Read();
 
+	Excicute();
+
 	system("pause");
 	
 	
