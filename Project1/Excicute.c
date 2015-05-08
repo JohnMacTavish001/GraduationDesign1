@@ -1,5 +1,6 @@
 #include<stdio.h>
-int test()
+int Excicute()
 {
 	printf("I'm wondering if the git hub works");
+	return;
 }
