@@ -5,14 +5,17 @@
 
 void main()                                       //主函数，主逻辑
 {
-	rowCount();                                   //首先数出文件共有多少行	
-	//printf("%d", rowCount());
-
+	 //rowCount();                                   //首先数出文件共有多少行	
 	writeQueue(rowCount());						  //根据输出的行数，写出用户定义丢包率的丢包序列
 	
-	//Read();
+	Read();
 
-	Excicute();
+	//for (int i = 0; i < rowCount(); i++)
+	//{
+	//	Read();
+	//}
+
+	//Excicute();
 
 	system("pause");
 	

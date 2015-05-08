@@ -27,6 +27,7 @@ int rowCount()                                    //计算文件行号的函数
 	}
 	fclose(fp);
 
-
+	
 	return i;
+	
 }
