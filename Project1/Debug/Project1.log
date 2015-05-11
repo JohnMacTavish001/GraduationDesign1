@@ -1,12 +1,16 @@
-﻿生成启动时间为 2015/5/8 19:04:26。
+﻿生成启动时间为 2015/5/11 16:55:42。
      1>项目“D:\GitHubClonePath\GraduationDesign1\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Read.c
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Read.c main.c
+         main.c
+     1>d:\githubclonepath\graduationdesign1\project1\main.c(9): warning C4013: “writeQueue”未定义；假设外部返回 int
+     1>d:\githubclonepath\graduationdesign1\project1\main.c(9): warning C4013: “rowCount”未定义；假设外部返回 int
+     1>d:\githubclonepath\graduationdesign1\project1\main.c(11): warning C4013: “Read”未定义；假设外部返回 int
          Read.c
      1>d:\githubclonepath\graduationdesign1\project1\read.c(10): warning C4047: “初始化”:“char”与“char [1]”的间接级别不同
      1>d:\githubclonepath\graduationdesign1\project1\read.c(11): warning C4047: “初始化”:“char”与“char [1]”的间接级别不同
      1>d:\githubclonepath\graduationdesign1\project1\read.c(12): warning C4047: “初始化”:“char”与“char [1]”的间接级别不同
-     1>d:\githubclonepath\graduationdesign1\project1\read.c(23): warning C4013: “exit”未定义；假设外部返回 int
+         正在生成代码...
        Link:
          D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHubClonePath\GraduationDesign1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHubClonePath\GraduationDesign1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHubClonePath\GraduationDesign1\Debug\Project1.lib" /MACHINE:X86 Debug\Excicute.obj
          Debug\main.obj
@@ -18,4 +22,4 @@
 
 生成成功。
 
-已用时间 00:00:00.43
+已用时间 00:00:00.60

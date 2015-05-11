@@ -10,10 +10,6 @@ void main()                                       //Ö÷º¯Êý£¬Ö÷Âß¼­
 	
 	Read();
 
-	//for (int i = 0; i < rowCount(); i++)
-	//{
-	//	Read();
-	//}
 
 	//Excicute();
 
