@@ -30,6 +30,9 @@
     <ClCompile Include="Excicute.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="orderByTime.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

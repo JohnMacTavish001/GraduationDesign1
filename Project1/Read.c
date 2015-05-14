@@ -34,7 +34,7 @@ int Read()										//读取文件的函数,将rowCount数出的行数传入
 
 
 
-	while (!feof(fp))
+	while (!feof(fp))							//如果writeQueue文件中读到一个“-”，则将原rd文件中一行写入到newRD文件中。
 	{
 		ch = fgetc(fp);
 		if (ch == '-')
@@ -52,7 +52,7 @@ int Read()										//读取文件的函数,将rowCount数出的行数传入
 
 		}
 
-		if (ch == '|')
+		if (ch == '|')							//如果writeQueue文件中读到一个“|”，则不进行写入，指针后移。
 		{
 			while (!feof(fp3))
 			{

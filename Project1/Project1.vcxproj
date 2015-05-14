@@ -71,6 +71,7 @@
   <ItemGroup>
     <ClCompile Include="Excicute.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="orderByTime.c" />
     <ClCompile Include="Read.c" />
     <ClCompile Include="rowCount.c" />
     <ClCompile Include="writeQueue.c" />
