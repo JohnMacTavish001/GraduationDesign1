@@ -30,7 +30,7 @@
     <ClCompile Include="Excicute.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="orderByTime.c">
+    <ClCompile Include="writeWirelessQueue.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
