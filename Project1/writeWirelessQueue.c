@@ -6,8 +6,6 @@ int writeWirelessQueue(rowCount)
 {
 	FILE *fp;
 	
-	char ch;
-	
 	fp = fopen("D:/writeQueue.txt", "w");
 	
 	int losePercentage = 0;
@@ -28,9 +26,6 @@ int writeWirelessQueue(rowCount)
 	{
 		buff = rand() % 100 + 0;						//产生1-100的随机数
 		
-		
-			
-		}
 		if (buff >= losePercentage)
 		{
 			fputs("-", fp);
@@ -39,18 +34,23 @@ int writeWirelessQueue(rowCount)
 		{
 			srand((unsigned)time(NULL));			//每次丢包的数目也由时间做种
 
-			lostPackageAmount = rand() % lostPackage + 0;//每次丢包的数目随机，但是丢包的数目在0到丢包总数（丢包率*由rowCount函数得出的总行数）之间
-
-			while (lostPackage > 0)
+			for (int j = lostPackageAmount; j > 0; j--)
 			{
-				for (int j = lostPackageAmount; j > 0; j--)
+				lostPackageAmount = rand() % lostPackage + 0;//每次丢包的数目随机，但是丢包的数目在0到丢包总数（丢包率*由rowCount函数得出的总行数）之间
+				
+				if (lostPackageAmount > 0)
 				{
-					fputs("-", fp);
-					
-					lostPackage--;
+					fputs("|", fp);
+
+					lostPackageAmount--;
 				}
+
 			}
+
 		}
+			
+	}
+		
 	
 	fclose(fp);
 	getchar();
