@@ -27,10 +27,10 @@
     <ClCompile Include="main.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Excicute.c">
+    <ClCompile Include="writeWirelessQueueV1.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="writeWirelessQueue.c">
+    <ClCompile Include="writeWirelessQueueV2.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
